@@ -40,6 +40,38 @@ namespace MathematicsTest
             Assert.True(result == 5);
         }
 
+        //Advanced Math
 
+        [Fact]
+        public void testcalculateArea()
+        {
+            var math = new AdvMath();
+            var result = math.calculateArea(3, 7);
+            Assert.True(result == 21);
+        }
+
+        [Fact]
+        public void testListAverage()
+        {
+            var math = new AdvMath();
+            var result = math.calculateListAverage(2, 3.5, 4, 7.5);
+            Assert.True(result == 4.25);
+        }
+
+        [Fact]
+        public void testValueSquared()
+        {
+            var math = new AdvMath();
+            var result = math.calculateValueSquared(3);
+            Assert.True(result == 9);
+        }
+
+        [Fact]
+        public void testPythagoreanTheorem()
+        {
+            var math = new AdvMath();
+            var result = math.calculatePythagoreanTheorem(3, 4);
+            Assert.True(result == 5);
+        }
     }
 }
