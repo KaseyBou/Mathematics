@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "MathematicsTest": {
+      "commandName": "Project",
+      "commandLineArgs": "First Second Third",
+      "environmentVariables": {
+        "Key": "Value"
+      }
+    }
+  }
+}
